@@ -42,10 +42,13 @@ namespace ExceptionHandlingExercise
 
                 }
 
-                foreach (var num in numbers)
-                {
-                    Console.WriteLine(num);
-                }
+               
+            }
+
+            Console.WriteLine();
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
             }
         }
                 // Now create a try catch
